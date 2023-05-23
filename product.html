@@ -23,9 +23,7 @@
 
     <nav class="navigation">
       <a href="index.html" class="navigation__link">Tienda</a>
-      <a href="about.html" class="navigation__link navigation__link--active"
-        >Nosotros</a
-      >
+      <a href="about.html" class="navigation__link">Nosotros</a>
     </nav>
 
     <main class="container">
@@ -36,11 +34,25 @@
 
         <div class="shirt__content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            expedita totam minima inventore modi voluptates.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
+            minima omnis obcaecati provident sequi ad dignissimos atque.
+            Suscipit quisquam, repellendus unde non quia quos, dolore ea minima,
+            sint culpa fugit!
           </p>
           <form class="form">
-            
+            <select class="form__camp">
+              <option disabled selected>Seleccionar Talla</option>
+              <option>Small (S)</option>
+              <option>Medium (M)</option>
+              <option>Large (L)</option>
+              <option>Extra Large (XL)</option>
+            </select>
+            <input class="form__camp" type="number" min="1" max="5" value="1" />
+            <input
+              class="form__submit"
+              type="submit"
+              value="Agregar al Carrito"
+            />
           </form>
         </div>
       </div>
